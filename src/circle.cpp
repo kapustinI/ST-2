@@ -19,10 +19,8 @@ void Circle::updateFromArea() {
 }
 
 void Circle::setRadius(double r) {
-	if (r > 0) {
-		radius = r;
-		updateFromRadius();
-	}
+	radius = (r >= 0) ? r : 0;
+	updateFromRadius();
 }
 
 void Circle::setFerence(double f) {

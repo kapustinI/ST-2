@@ -5,7 +5,7 @@
 #include <cmath>
 const double PI = 3.141592653589793;
 class Circle {
-private:
+ private:
 	double radius;
 	double ference;
 	double area;
@@ -14,7 +14,7 @@ private:
 	void updateFromFerence();
 	void updateFromArea();
 
-public:
+ public:
 	explicit Circle(double r);
 	void setRadius(double r);
 	void setFerence(double f);

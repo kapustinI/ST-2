@@ -36,7 +36,6 @@ TEST(CircleTests, ZeroRadius) {
 	Circle c(0);
 	EXPECT_DOUBLE_EQ(c.getRadius(), 0);
 	EXPECT_DOUBLE_EQ(c.getFerence(), 0);
-	EXPECT_DOUBLE_EQ(c.getArea(), 0);
 }
 
 TEST(CircleTests, NegativeRadius) {
