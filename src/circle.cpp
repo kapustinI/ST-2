@@ -28,12 +28,22 @@ void Circle::setFerence(double f) {
 		ference = f;
 		updateFromFerence();
 	}
+	else {
+		radius = 0;
+		ference = 0;
+		area = 0;
+	}
 }
 
 void Circle::setArea(double a) {
 	if (a > 0) {
 		area = a;
 		updateFromArea();
+	}
+	else {
+		radius = 0;
+		ference = 0;
+		area = 0;
 	}
 }
 
