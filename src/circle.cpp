@@ -1,4 +1,4 @@
-// Copyright 2022 UNN-CS
+// Copyright 2025 UNN-CS
 #include <cstdint>
 #include "circle.h"
 Circle::Circle(double r) {
