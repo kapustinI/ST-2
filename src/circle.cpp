@@ -27,11 +27,10 @@ void Circle::setFerence(double f) {
   if (f > 0) {
     ference = f;
     updateFromFerence();
-  }
-  else {
-    radius = 0;
-    ference = 0;
-    area = 0;
+  } else {
+     radius = 0;
+     ference = 0;
+     area = 0;
   }
 }
 
@@ -39,11 +38,10 @@ void Circle::setArea(double a) {
   if (a > 0) {
     area = a;
     updateFromArea();
-  }
-  else {
-    radius = 0;
-    ference = 0;
-    area = 0;
+  } else {
+     radius = 0;
+     ference = 0;
+     area = 0;
   }
 }
 

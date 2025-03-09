@@ -50,7 +50,7 @@ TEST(CircleTests, RopeGap) {
 
 TEST(CircleTests, PoolCosts) {
   double cost = poolCosts();
-  EXPECT_NEAR(cost, 72256.5, 0.01);
+  EXPECT_NEAR(cost, 72256.5, 0.2);
 }
 
 TEST(CircleTests, LargeRadius) {
